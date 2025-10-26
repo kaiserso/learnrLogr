@@ -1,0 +1,50 @@
+# R session history and workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project files
+.Rproj.user/
+*.Rproj
+
+# Compiled documentation and metadata
+.Rbuildignore
+.Rinstignore
+.Rcheck/
+.Rprofile
+.Renviron
+.Renv
+
+# Installed package artifacts
+/inst/doc
+/Meta
+/help
+/html
+*.rdb
+*.rdx
+
+# Compiled shared objects / binaries
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.Rapp.history
+
+# Temporary files and caches
+*.swp
+*.tmp
+*.bak
+.DS_Store
+__pycache__/
+.Rproj.user/
+
+# Local library paths
+*/.RData
+*/.Rhistory
+*/.Rproj.user/
+
+# Package build tarballs
+*.tar.gz
+
+# Test and vignette

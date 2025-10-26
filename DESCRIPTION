@@ -1,0 +1,14 @@
+Package: learnrLogr
+Title: Logging utilities for learnr and Shiny apps
+Version: 0.1.0
+Authors@R: person("Peter", "Young", email = "buynada@yahoo.com", role = c("aut", "cre"))
+Description: Provides utilities to log learnr and Shiny tutorial events to Cloudflare endpoints.
+License: MIT
+Encoding: UTF-8
+Depends: R (>= 3.6)
+Imports:
+    httr,
+    jsonlite,
+    dotenv,
+    uuid
+RoxygenNote: 7.3.2
