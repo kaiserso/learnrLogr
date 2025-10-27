@@ -4,10 +4,6 @@
 #' Cloudflare Worker endpoint.
 #' @export
 initialize_logger <- function() {
-  library(httr)
-  library(jsonlite)
-  library(dotenv)
-  library(uuid)
 
   # use a private .env or .Renviron file to store sensitive configuration
   # parameters and authorization credentials
@@ -41,7 +37,7 @@ register_learnr_handlers <- function() {
   event_register_handler("session_start", function(session, event, data) {
     message("Session started")
     observe({
-      id <- UUIDgenerate()
+      id <- uuid::UUIDgenerate()
       payload <- list(
         session = id,
         event = "session_start",
