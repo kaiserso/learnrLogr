@@ -7,6 +7,7 @@ initialize_logger <- function() {
   library(httr)
   library(jsonlite)
   library(dotenv)
+  library(uuid)
 
   # use a private .env or .Renviron file to store sensitive configuration
   # parameters and authorization credentials
